@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2? family=lato:wght@300;400;700&display=swap"rel="stylesheet" />
+    <title>Wp-pusher-checkout</title>
+</head>
+<body>
+    <header>
+        <div class="WppusherLogoCopy">
+            <a href="#"><img src="./Assets/wppusher-logo copy.svg" alt="WppusherLogoCopy"/></a>
+        </div>
+        <nav class="nav_bar">
+            <ul>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Learn More</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Help</a></li>
+                <li class="list_btn"><a href="#">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr />
+    <main>
+        <section>
+            <h1>Checkout</h1>
+            <hr />
+            <section class="form__wrapper">
+                <form>
+                    <div class="label_grouping">
+                        <div class="number">1</div>
+                        <p>Your basic Information</p>
+                    </div>
+                    <div class="input-flex">
+                        <div>
+                            <label for="Firstname" class="form__label">First name</label>
+                            <input type="text"
+                            name="Firstname"
+                            id="firstname"
+                            placeholder="  Jane"
+                            class="form__input" />
+                        </div>
+                        <div>
+                            <label for="lastname" class="form__label">Last name</label>
+                            <input type="text"
+                            name="lastname"
+                            id="lastname"
+                            placeholder="  Doe"
+                            class="form__input" />
+                        </div>
+                    </div>
+                    <div class="input-flex">
+                        <div>
+                            <label for="email" class="form__label"> Email</label>
+                            <input type="text"
+                            name="Email"
+                            id="Email"
+                            placeholder="  janedoe@example.com"
+                            class="form__input" />
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="label_grouping">
+                        <div class="number">2</div>
+                        <p>You Payment Information</p>
+                    </div>
+                    <div class="credit-card">
+                        <label for="credit_card" class="form__label">Credit card</label>
+                        <div class="payment">
+                            <input type="text"
+                            name="credit_card"
+                            id="creditcard"
+                            placeholder="Card Number"
+                            class="creditcard" />
+
+                            <input type="text"
+                            name="credit_card"
+                            id="creditcard"
+                            placeholder="MM/YY"
+                            class="year" />
+
+                            <input type="text"
+                            name="credit_card"
+                            id="creditcard"
+                            placeholder="CVC" 
+                            class="CVC"/>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="submit_btn">
+                        <button>Buy Wp Pusher</button>
+                        <p>
+                            <span class="symbol">?</span>
+                            <b>Need Any Help</b>Don't Hesistate to contact support!                            
+                        </p> 
+
+                        <p class="Paragraph_bottom">
+                            Powered by <span class="powered_by"><b>stripe</b></span>
+                        </p>
+                    </div>
+                </form>
+            </section>
+        </section>
+        <section class="second_card">
+            <div class="card_title">
+                <h2>Freelancer</h2>
+                <span>
+                    <span>$</span>
+                    <span>99</span>
+                    <span>/year</span>
+                </span>
+                <i>Automatically renews after 1 year</i>
+            </div>
+            <div class="Card-section">
+                <ul>
+                    <li>
+                        <img src="./Assets/Combined Shape.svg" alt="check" /> Use on 5 clients
+                    </li>
+                    <li>
+                        <img src="./Assets/Combined Shape.svg" alt="check"/>private repositories
+                    </li>
+                    <li>                        
+                        <img src="./Assets/Combined Shape.svg" alt="check picture" /> &#160Email support
+                    </li>
+                </ul>
+            </div>
+            <div class="more_text">
+                <p>Need 20 client sites<br>
+                <strong>Switch to the <i>Agency</i> plan</strong>
+                </p>
+            </div>
+            <div class="profile_description">
+                <p>
+                    FTP is horrible to deal with.<br />
+                    <b>WP Pusher</b> solves that issue,<br />
+                    and the customer support is<br />
+                    awesome!
+                </p>                    
+                <br>
+                <div class="profile_details">
+                    <img src="./Assets/Bitmap.svg" alt="Profile Picture" /> &#160Kirk Beard
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2018 WP Pusher IVS . <a href="#">Terms of Service</a></p>
+    </footer>    
+</body>
+</html>
